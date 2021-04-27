@@ -1,103 +1,95 @@
 
 
-body {
-    margin: 0;
-    padding: 0;
-    overscroll-behavior: none;
-    background-color:#F3EEDD;
-}
-
-
-a {
-    color:#ADC4B4 ;
-    text-decoration: none;
-    padding-left: 5%;    
+body {margin: 0;
+      padding: 0;
+      overscroll-behavior: none;
+      background-color:#F3EEDD;
 }
 
 
 
-h1 {
-    font-size: 20px;
+a {color:#ADC4B4 ;
+   text-decoration: none;
+   padding-left: 5%;    
+}
+
+
+
+h1 {font-size: 20px;
     color:#7A8B6F;
     text-align: center;
   
-font-family: rosella-deco, sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-family: rosella-deco, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+ 
 
-  
-  
-}
 
-h2{
-    color: blue;
-    font-size: 20px;
+h2 {font-size: 20px;
     color:#ACB391;
     text-align: center;
 }
 
-h3 {
-    color: blue;
-    font-size: 20px;
+
+
+h3 {font-size: 20px;
     color:#809781;
     text-align: center;
 }
 
 
 
-h4 {
-    color: blue;
-    font-size: 20px;
+h4 {font-size: 20px;
     color:#7A8B6F;
     text-align: center;
 }
 
 
-p {
-    color: #7A8B6F;
-    font-size: 18px;
+
+p {color: #7A8B6F;
+   font-size: 18px;
 }
 
 
-.nav{
-    background-color: #7A8B6F;
-    color:white;
-    width:100%;
-    text-align: center;
-    letter-spacing :1px;
-    padding-left: 0%;
-    padding-right: 10%;
-    font-size: 50px;
 
-
-}
-.b{
-    background-color: #7A8B6F;
-    color:white;
-    width:100%;
-    padding: 24px;
-    text-align: center;
-
+.nav {background-color: #7A8B6F;
+     width:100%;
+     text-align: center;
+     letter-spacing :1px;
+     padding-left: 0%;
+     padding-right: 10%;
+     font-size: 50px;
 }
 
-.foo {
-    width:100%;
-    text-align: center;
-    padding: 24px;   
+
+
+.b {background-color: #7A8B6F;
+   width:100%;
+   padding: 24px;
+   text-align: center;
+}
+
+
+
+.foo {width:100%;
+      text-align: center;
+      padding: 24px;   
 }
  
-.mid {
-  text-align: center;
+
+
+.mid {text-align: center;
 }
 
 
-.tab {
-    margin-left: 20px;
+
+.tab {margin-left: 20px;
   }
 
 
-    div img.center {
+
+div img.center {
        display: block;
        margin-left: auto;
        margin-right: auto;
@@ -105,9 +97,6 @@ p {
        
 }
     
-
-
-
 
 
 
