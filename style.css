@@ -18,12 +18,13 @@ a {
 
 
 h1 {
-    color: blue;
     font-size: 20px;
     color:#7A8B6F;
     text-align: center;
-  font-style: "Rosella Deco" ;
   
+font-family: rosella-deco, sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
   
