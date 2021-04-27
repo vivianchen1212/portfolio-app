@@ -22,8 +22,13 @@ h1 {
     font-size: 20px;
     color:#7A8B6F;
     text-align: center;
+  font-style: "Rosella Deco" ;
+  
 }
 
+  
+  
+}
 
 h2{
     color: blue;
@@ -32,10 +37,14 @@ h2{
     text-align: center;
 }
 
-p {
-    color: #7A8B6F;
-    font-size: 18px;
+h3 {
+    color: blue;
+    font-size: 20px;
+    color:#809781;
+    text-align: center;
 }
+
+
 
 h4 {
     color: blue;
@@ -44,6 +53,11 @@ h4 {
     text-align: center;
 }
 
+
+p {
+    color: #7A8B6F;
+    font-size: 18px;
+}
 
 
 .nav{
