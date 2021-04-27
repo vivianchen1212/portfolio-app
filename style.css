@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     overscroll-behavior: none;
-    background-color:#D9C5CC;
+    background-color:#F3EEDD;
 }
 
 
 a {
-    color:#def0ee ;
+    color:#ADC4B4 ;
     text-decoration: none;
     padding-left: 5%;
     
@@ -20,7 +20,7 @@ a {
 h1 {
     color: blue;
     font-size: 20px;
-    color:#f28963;
+    color:#7A8B6F;
     text-align: center;
 }
 
@@ -28,25 +28,25 @@ h1 {
 h2{
     color: blue;
     font-size: 20px;
-    color:#f28963;
+    color:#ACB391;
     text-align: center;
 }
 
 p {
-    color: #a3360f;
+    color: #7A8B6F;
     font-size: 18px;
 }
 
 h4 {
     color: blue;
     font-size: 20px;
-    color:#1f2963;
+    color:#7A8B6F;
     text-align: center;
 }
 
 
 .nav{
-    background-color: black;
+    background-color: #7A8B6F;
     color:white;
     width:100%;
     text-align: center;
