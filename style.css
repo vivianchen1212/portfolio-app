@@ -77,6 +77,19 @@ h4 {
   text-align: center;
 }
 
+
+.tab {
+    margin-left: 20px;
+  }
+
+
+    div img.center {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      width: 60%;
+       
+}
     
 
 
