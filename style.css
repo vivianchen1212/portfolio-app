@@ -8,12 +8,12 @@ body {margin: 0;
 
 
 
-a {color:#ADC4B4 ;
+ a {color:#ADC4B4 ;
    text-decoration: none;
-   padding-left: 5%;  
-font-family: gill-sans-nova-inline,sans-serif;
-font-weight: 400;
-font-style: normal;
+   padding-left: 5%;    
+   font-family: gill-sans-nova-inline,sans-serif;
+   font-weight: 200;
+   font-style: normal;
 }
 
 
@@ -36,9 +36,13 @@ h2 {font-size: 20px;
 
 
 
-h3 {font-size: 50px;
+h3 {
+    font-size: 50px;
     color:#809781;
     text-align: center;
+    font-family: blockhead-illust-ot,sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
