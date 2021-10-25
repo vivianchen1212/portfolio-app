@@ -61,7 +61,8 @@ p {color: #7A8B6F;
 
 
 
-.nav {background-color: #7A8B6F;
+.nav {//background-color: #7A8B6F;
+  background-color: #6f7c8b;
       width:100%;
       text-align: center;
       letter-spacing :1px;
