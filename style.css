@@ -102,10 +102,10 @@ p {color: #7A8B6F;
 
 div img.center {
   
-  
-   //    margin-left: auto;
-  //   margin-right: auto;
-   //   width: 60%;
+  display: block;
+       margin-left: auto;
+     margin-right: auto;
+      width: 30%;
        
 }
     
@@ -125,11 +125,7 @@ div iframe.center {
   
 }
   
-* {
-  margin: 0;
-  padding:0;
-  max-width: 100%;
-}
+
   
 
 
