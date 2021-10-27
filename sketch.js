@@ -1,61 +1,3 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="UFT-8">
-  <title>Digital Works</title>
-  <meta name="keywords" content="art1, art2, art3">
-  <meta name="author" content="vivanchen">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
- 
-  
-  <link rel="icon" href="https://cdn.glitch.com/b6aca35b-e1df-40dd-87d2-ba8032198dd5%2FPosition.jpg?v=1619494699464" type="image/PNG" sizes="16x16">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.typekit.net/kwt0zer.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-  
-
-
-
-</head>
-
-
-
-
-
-
-
-
-<!----Navigation---->
-<body>
-  <script src="sketch.js"></script>   
-  
-  
-  <h1> Chienyu Chen </h1>
-      <a href="https://www.instagram.com/chentina1212/" class="fa fa-instagram" aria-hidden="true"style="font-size:48px; color: #6f7c8b" >      &nbsp;&nbsp;&nbsp;
-      <a href="mailto:chentina1212yahoo.com.tw" class="fa fa-envelope" style="font-size:48px;color: #6f7c8b"></a> 
-<div class="nav"> 
-      <a href="about.html"> About Me</a>
-      <a href="index.html">all</a>
-      <a href="digital.html">digital</a>
-      <a href="photography.html">photography</a>
-      <a href="others.html">others</a>
-  
-</div>
-  
-
-         
-             
-<!----title & Content---->
-  <h3>Kaleidoscope</h3>
-  
-        
-        
-        
-<!----title---->  
 <canvas>
 let symmetry = 6;
 
@@ -131,8 +73,3 @@ function draw() {
   
    
   </canvas>
-  
-  
-  
-</body>
-</html>
