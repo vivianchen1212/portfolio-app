@@ -179,18 +179,25 @@ div iframe.center {
 }
 
 
-
-
-
-html, body {
-  margin: 0;
-  padding: 0;
+h1.a {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
 }
+
+
+
+
+
+
+
+
+
 canvas {
   display: block;
-   padding-bottom:25px;
-  
-  
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
 }
 
 
