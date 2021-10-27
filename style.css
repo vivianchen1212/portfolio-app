@@ -118,15 +118,45 @@ div iframe.center {
        
 }
 
-.container{
-  width:60vw;
-  margin:0 auto;
-  height: fixed;
-  
-}
-  
 
   
+
+   .figures {
+//gin:0;
+//ding:0;
+//x-width: 100%;
+        
+
+ 
+ //  margin: 30px;
+   // float: left;
+     //width: 250px;
+}
+
+          
+      
+  
+  
+ .container {
+  width: 60vw;
+  height: fixed;
+  margin: 0 auto;
+  font-size: 25px;
+}
+ 
+
+
+    
+   div.figures img {
+    // max-width: 100%;
+      //      height: auto;
+width:32%;
+display:inline-block;
+  padding-bottom:25px;
+  text-align: center;
+     
+}
+
 
 
 
