@@ -1,4 +1,4 @@
-<canvas>
+
 let symmetry = 6;
 
 let angle = 360 / symmetry;
@@ -6,8 +6,8 @@ let saveButton, clearButton, mouseButton, keyboardButton;
 let slider;
 
 function setup() {
-  noCanvas()
-  //createCanvas(600, 600);
+ // noCanvas()
+  createCanvas(600, 600);
   angleMode(DEGREES);
   background('#D7C5C1');
 
@@ -72,4 +72,3 @@ function draw() {
   
   
    
-  </canvas>
