@@ -136,7 +136,7 @@ p {
 div.figures img {
  //max-width: 100%;
  //height: auto;
-   width:32%;
+  width:20%;
    display:inline-block;
    padding-bottom:25px;
    text-align: center;  
@@ -204,7 +204,7 @@ div iframe.center {
 
 
 
-.div#wrapper{
+...div#wrapper{
   background-color: #cccccc;
   width:500px;
   height: 500px;
@@ -241,8 +241,8 @@ canvas {
 }
 
 .zoomEffect_1 img {
- // max-width: 32%;
-     width:32%;
+  max-width: 32%;
+   //  width:32%;
    display:inline-block;
    padding-bottom:25px;
    text-align: center;  
