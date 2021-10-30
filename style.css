@@ -110,10 +110,10 @@ p {
 
 .figures {
   
-  //x-width: 100%;
+//  max-width: 30%;
    margin: 30px;
-//  float: left;
-  width: 250px;
+  float: left;
+ width: 250px;
     postion :relative;
     overflow:hidden; 
   
@@ -212,7 +212,7 @@ div#wrapper{
 //  width:500px;
   //height: 500px;
   margin: 0 auto;
-//  float: left;
+  float: left;
 
 
   max-width: 80%; /* 2 */
