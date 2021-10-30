@@ -112,7 +112,7 @@ p {
   
   //x-width: 100%;
    margin: 30px;
-  float: left;
+//  float: left;
   width: 250px;
     postion :relative;
     overflow:hidden; 
@@ -137,10 +137,10 @@ div.figures img {
  max-width: 100%;
   
  //height: auto;
-  //width:20%;
-  float: left;
   
- //  display:inline-block;
+ 
+  
+   display:inline-block;
    padding-bottom:25px;
    text-align: center;  
   
@@ -212,10 +212,10 @@ div#wrapper{
 //  width:500px;
   //height: 500px;
   margin: 0 auto;
-  float: right;
+//  float: left;
 
 
-  max-width: 100%; /* 2 */
+  max-width: 80%; /* 2 */
 
   padding-right: 10px; /* 3 */
   padding-left:  10px; /* 3 */
