@@ -183,10 +183,10 @@ div.BtT h4.desc {
 
 
 div img.center {
- //  display: block;
- //  margin-left: auto;
- //  margin-right: auto;
- //  width: 30%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
   
   
        
@@ -204,10 +204,10 @@ div iframe.center {
 
 
 
-div#wrapper{
+.div#wrapper{
   background-color: #cccccc;
   width:500px;
-  height: 1500px;
+  height: 500px;
 }
 
 
