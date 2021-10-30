@@ -113,7 +113,7 @@ p {
   //ding:0;
   //x-width: 100%;
   //margin: 30px;
-  //float: left;
+  float: left;
   //width: 250px;
     postion :relative;
     overflow:hidden; 
@@ -138,9 +138,10 @@ div.figures img {
  //max-width: 100%;
  //height: auto;
    width:32%;
-   display:inline-block;
+//   display:inline-block;
    padding-bottom:25px;
    text-align: center;  
+  
   
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -202,6 +203,14 @@ div iframe.center {
 
 
 
+div#wrapper{
+  background-color: #cccccc;
+  width:1500px;
+  height: 1500px;
+}
+
+
+
 
 canvas {
   display: block;
@@ -209,6 +218,16 @@ canvas {
   margin-right: auto;
   width: 50%
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
