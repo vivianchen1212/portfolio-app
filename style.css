@@ -137,7 +137,8 @@ div.figures img {
  //max-width: 100%;
  //height: auto;
   width:20%;
-   display:inline-block;
+  
+ //  display:inline-block;
    padding-bottom:25px;
    text-align: center;  
   
@@ -204,7 +205,7 @@ div iframe.center {
 
 
 
-...div#wrapper{
+....div#wrapper{
   background-color: #cccccc;
   width:500px;
   height: 500px;
