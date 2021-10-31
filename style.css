@@ -220,8 +220,8 @@ div#wrapper{
   margin: 0 auto;
   //float: left;
  
-
-  max-width: 50%; /* 2 */
+width:100%
+ // max-width: 50%; /* 2 */
  padding-right: 10px; /* 3 */
   padding-left:  10px; /* 3 */
  
@@ -253,29 +253,6 @@ canvas {
 
 
 
-.zoomEffect_1 {
-  postion :relative;
-  overflow:hidden;
-}
-
-.zoomEffect_1 img {
-  max-width: 32%;
-   //  width:32%;
-   display:inline-block;
-   padding-bottom:25px;
-   text-align: center;  
-  height:auto;
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.zoomEffect_1:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-
-  
-}
 
 
 
