@@ -118,8 +118,10 @@ p {
 .figures {
     
   margin: auto;
- // float: left;
-    width: 250px;
+  float: left;
+  //  width: 250px;
+  max-width:100%;
+    width:320px;
     postion :relative;
   
   
@@ -210,11 +212,9 @@ div iframe.center {
 
 div#wrapper{
   background-color: #cccccc;
-
   margin: 0 auto;
   //float: left;
- 
-//width:100%;
+ width:100%;
   max-width: 50%; /* 2 */
  padding-right: 10px; /* 3 */
   padding-left:  10px; /* 3 */
@@ -235,23 +235,7 @@ canvas {
 
 
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 
-
-
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
- // width: 250px;
- //   postion :relative;
-  
-  
-}
 
 
 
