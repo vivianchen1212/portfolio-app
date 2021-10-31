@@ -117,12 +117,12 @@ p {
 
 .figures {
     
-  margin: auto;
+//  margin: auto;
   float: left;
-  //  width: 250px;
+    width: 250px;
   max-width:100%;
-    width:320px;
-    postion :relative;
+    
+ //   postion :relative;
   
   
     overflow:hidden; 
@@ -191,20 +191,20 @@ div.BtT h4.desc {
 
 
 div img.center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 30%; 
+  // display: block;
+ //  margin-left: auto;
+ //  margin-right: auto;
+ //  width: 30%; 
        
 }
     
 
 
 div iframe.center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 60%;
+ //  display: block;
+ //  margin-left: auto;
+ //  margin-right: auto;
+//   width: 60%;
 }
 
 
@@ -212,10 +212,11 @@ div iframe.center {
 
 div#wrapper{
   background-color: #cccccc;
-  margin: 0 auto;
-  //float: left;
- width:100%;
-  max-width: 50%; /* 2 */
+  margin: auto auto auto auto;
+  
+  float: left;
+ //width:100%;
+  max-width: 100%; /* 2 */
  padding-right: 10px; /* 3 */
   padding-left:  10px; /* 3 */
  
