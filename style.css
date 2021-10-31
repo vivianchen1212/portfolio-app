@@ -120,14 +120,12 @@ p {
 //  margin: auto;
   float: left;
     width: 250px;
-  max-width:100%;
-    
- //   postion :relative;
-  
-  
-    overflow:hidden; 
- 
+  max-width:100%;  
+ //postion :relative;
+  overflow:hidden; 
   padding:20px;
+   display: block; 
+   height: 100; 
 }
 
                  
@@ -214,9 +212,9 @@ div#wrapper{
   background-color: #cccccc;
   margin: auto auto auto auto;
   
-  float: left;
- //width:100%;
-  max-width: 100%; /* 2 */
+//  float: left;
+ width:50%;
+ // max-width: 100%; /* 2 */
  padding-right: 10px; /* 3 */
   padding-left:  10px; /* 3 */
  
@@ -232,9 +230,6 @@ canvas {
   margin-right: auto;
   width: 50%
 }
-
-
-
 
 
 
