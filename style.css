@@ -156,7 +156,8 @@ p {
 
  /*all */   
 div.figures img {
-  
+   opacity: 1;
+ 
  max-width: 100%;
    display:inline-block;
    padding-bottom:25px;
@@ -170,7 +171,7 @@ div.figures img {
 
 
 div.figures:hover img{
-  opacity
+   opacity: 0.3;
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -180,7 +181,7 @@ div.figures:hover img{
 
 /*others */
 div.figures2 img {
-  
+  opacity: 1; 
  max-width: 100%;
    display:inline-block;
    padding-bottom:25px;
@@ -194,6 +195,7 @@ div.figures2 img {
 
 
 div.figures2:hover img{
+   opacity: 0.3;
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
