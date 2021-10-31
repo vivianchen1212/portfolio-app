@@ -107,7 +107,39 @@ p {
    margin-left: 20px;
   }
 
-  
+/*----------------------------------------------------------------*/
+.column{
+  float:left;
+  width: 25%;
+  padding:10px;
+}
+
+.column img{
+  opcaity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover{
+  opcaity: 1; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+/*---------------------------------------------------------*/
+
+
+
+
+
+
 
 .figures {
     
