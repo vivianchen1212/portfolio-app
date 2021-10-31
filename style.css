@@ -233,17 +233,36 @@ canvas {
 }
 
 
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+
+
 .column {
   float: left;
   width: 50%;
   padding: 10px;
+ // width: 250px;
+ //   postion :relative;
+  
+  
 }
 
-column .img{
-   max-width: 100%;
+
+.column img {
+  // max-width: 100%;
+  
+  width:250px;
    display:inline-block;
    padding-bottom:25px;
    text-align: center;  
+  
+  
   
 }
 
