@@ -218,11 +218,11 @@ div#wrapper{
   background-color: #cccccc;
 
   margin: 0 auto;
-  float: left;
+  //float: left;
  
 
-  //max-width: 80%; /* 2 */
- //padding-right: 10px; /* 3 */
+  max-width: 50%; /* 2 */
+ padding-right: 10px; /* 3 */
   padding-left:  10px; /* 3 */
  
   
