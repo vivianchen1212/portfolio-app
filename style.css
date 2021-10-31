@@ -114,7 +114,7 @@ p {
 
 
 
-
+/*all */
 .figures {
     
 //  margin: auto;
@@ -128,7 +128,21 @@ p {
    height: 100; 
 }
 
-                 
+/*others */
+.figures2{
+  margin:auto;
+  width: 250px;
+  max-width:100%;  
+  overflow:hidden; 
+  padding:20px;
+  display: block; 
+    
+  
+}
+
+
+
+               
   
 .container {
   width: 60vw;
@@ -140,7 +154,7 @@ p {
  
 
 
-    
+ /*all */   
 div.figures img {
   
  max-width: 100%;
@@ -156,12 +170,35 @@ div.figures img {
 
 
 div.figures:hover img{
+  opacity
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   
 }
 
+
+/*others */
+div.figures2 img {
+  
+ max-width: 100%;
+   display:inline-block;
+   padding-bottom:25px;
+   text-align: center;  
+   
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  
+}
+
+
+div.figures2:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
 
 
 
