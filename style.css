@@ -104,10 +104,15 @@ p {
 
 
 .tab {
-   margin-left: 20px;
-  }
+  padding-left:50px;
+}
 
 
+.desc {
+  padding-top:20px;
+  padding-left:150px;
+  padding-right:150px;
+}
 
 
 
@@ -283,6 +288,8 @@ canvas {
    height:60px;   /* Height of the footer */
    background:#6cf;
 }
+
+
 
 
 .videobox {
