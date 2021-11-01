@@ -22,10 +22,6 @@ function setup() {
   // Creating the button for Full Screen
   fullscreenButton = createButton('Full Screen');
   fullscreenButton.mousePressed(screenFull);
-
-  // Setting up the slider for the thickness of the brush
-  brushSizeSlider = createButton('Brush Size Slider');
-  sizeSlider = createSlider(1, 32, 4, 0.1);
 }
 
 // Save File Function
@@ -56,7 +52,6 @@ function draw() {
     if (mouseIsPressed) {
       for (let i = 0; i < symmetry; i++) {
         rotate(angle);
-        let sw = sizeSlider.value();
         stroke(mouseX-random(1,50),((mouseX+mouseY)/2)-random(1,50), mouseY-random(1,50));
         strokeWeight(random(3,15)+random(3,15)-10);
         point(mx, my, pmx, pmy);
