@@ -184,7 +184,7 @@ div.figures:hover img{
   transform: scale(1.1);
   
 }
-
+/*div.figures2 img {*/
 
 /*others */
 div.figures2 img {
@@ -234,22 +234,8 @@ div.BtT h4.desc {
 
 
 
-div img.center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 30%; 
-       
-}
-    
 
-
-div iframe.center {
- //  display: block;
- //  margin-left: auto;
- //  margin-right: auto;
-//   width: 60%;
-}
+  
 
 
 
@@ -340,10 +326,33 @@ canvas {
   float:left;
 }
 
-.bob-2item img,.bob-3item img,.bob-4item img{
+.bob-3item img{
+  
+
+   opacity: 1; 
+ //max-width: 100%;
+   display:inline-block;
+   text-align: center;    
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+   transition: all 0.5s;
+  
+
+  
   width:100%;
   display: block;
 }
+
+
+
+div.bob-3item:hover img{
+   opacity: 0.3;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
+
 
 
 
