@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-//background-color:#F3EEDD;
+/*background-color:#F3EEDD;*/
   background-color:#fffdf7;
 }
 
@@ -219,26 +219,22 @@ canvas {
 
 
 
+/*
 
-
-body div{
-    display: inline-block;
-    text-align: center;
-}
 .initImg{
     width: 150px;
     height: 80px;
 
 .coverImg{
     object-fit: cover;
+*/
 
 
 
 
 
 
-
-
+/*video size & position*/
 
 .videobox {
     position: relative;
@@ -320,6 +316,47 @@ div.bob-3item:hover img{
   transform: scale(1.1);
   
 }
+
+
+
+.initImg{
+    width: 150px;
+    height: 80px;
+}
+.fillImg{
+    object-fit: fill;
+}
+.containImg{
+    object-fit: contain;
+}
+.coverImg{
+    object-fit: cover;
+}
+.noneImg{
+    object-fit: none;
+}
+.scaleDownImg{
+    object-fit: scale-down;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
