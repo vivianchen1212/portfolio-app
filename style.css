@@ -255,8 +255,7 @@ canvas {
 
    opacity: 1; 
  //max-width: 100%;
-   display:inline-block;
-   text-align: center;    
+   display:inline-block;  
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
    transition: all 0.5s;
