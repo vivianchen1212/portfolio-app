@@ -320,8 +320,8 @@ div.bob-3item:hover img{
 
 
 .initImg{
-    width: 150px;
-    height: 80px;
+    width:    345px;
+    height:   345px;
 }
 .fillImg{
     object-fit: fill;
