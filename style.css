@@ -134,9 +134,7 @@ p {
   
 }
 
-
-
-               
+              
   
 .container {
   width: 60vw;
@@ -146,6 +144,17 @@ p {
    
 }
  
+
+
+
+
+div .center img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 
  
@@ -201,33 +210,12 @@ div.BtT h4.desc {
 
 
 
-  
-
-
-
-
-
 canvas {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%
 }
-
-
-
-
-
-
-/*
-
-.initImg{
-    width: 150px;
-    height: 80px;
-
-.coverImg{
-    object-fit: cover;
-*/
 
 
 
@@ -338,21 +326,6 @@ div.bob-3item:hover img{
 .scaleDownImg{
     object-fit: scale-down;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
