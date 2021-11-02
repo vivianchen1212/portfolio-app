@@ -121,19 +121,6 @@ p {
 
 
 
-/*all */
-.figures {
-    
-//  margin: auto;
-  float: left;
-    width: 250px;
-  max-width:100%;  
- //postion :relative;
-  overflow:hidden; 
-  padding:20px;
-   display: block; 
-   height: 100; 
-}
 
 /*others */
 .figures2{
@@ -161,29 +148,8 @@ p {
  
 
 
- /*all */   
-div.figures img {
-   opacity: 1;
  
- max-width: 100%;
-   display:inline-block;
-   padding-bottom:25px;
-   text-align: center;  
-   
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  
-}
 
-
-div.figures:hover img{
-   opacity: 0.3;
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  
-}
 /*div.figures2 img {*/
 
 /*others */
@@ -240,21 +206,6 @@ div.BtT h4.desc {
 
 
 
-div#wrapper{
-  background-color: #cccccc;
-  margin: auto auto auto auto;
-  
-//  float: left;
- width:50%;
- // max-width: 100%; /* 2 */
- padding-right: 10px; /* 3 */
-  padding-left:  10px; /* 3 */
- 
-  
-}
-
-
-
 
 canvas {
   display: block;
@@ -262,6 +213,26 @@ canvas {
   margin-right: auto;
   width: 50%
 }
+
+
+
+
+
+
+
+
+body div{
+    display: inline-block;
+    text-align: center;
+}
+.initImg{
+    width: 150px;
+    height: 80px;
+
+.coverImg{
+    object-fit: cover;
+
+
 
 
 
@@ -336,9 +307,6 @@ canvas {
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
    transition: all 0.5s;
-  
-
-  
   width:100%;
   display: block;
 }
@@ -352,14 +320,6 @@ div.bob-3item:hover img{
   transform: scale(1.1);
   
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -385,11 +345,6 @@ div.bob-3item:hover img{
     width: 1170px;
   }
 }
-
-
-
-
-
 
 
 
