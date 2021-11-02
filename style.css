@@ -1,11 +1,12 @@
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  overscroll-behavior: none;
 //background-color:#F3EEDD;
   background-color:#fffdf7;
 }
@@ -278,17 +279,6 @@ canvas {
 
 
 
-#footer {
- // position:fixed;
-  
- // clear: both;	
-  
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background:#6cf;
-}
 
 
 
@@ -313,6 +303,54 @@ canvas {
 
 
 
+.bob-container{
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.bob-row{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.bob-row:before,.bob-row:after{
+  display: table;
+  content: " ";  
+}
+
+.bob-row:after{
+  clear: both;
+}
+
+/*2個並排 不管在任何尺寸都會2個並排*/
+.bob-2item{
+  width:50%;
+}
+
+/*3個並排 在767px以下會垂直排列*/
+.bob-3item{
+  width: 100%;
+}
+/*4個並排 在767px以下會2個排列*/
+.bob-4item{
+  width:50%;
+}
+
+.bob-2item,.bob-3item,.bob-4item{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 30px;
+   
+  float:left;
+}
+
+.bob-2item img,.bob-3item img,.bob-4item img{
+  width:100%;
+  display: block;
+}
 
 
 
@@ -324,14 +362,27 @@ canvas {
 
 
 
-
-
-
-
-
-
-
-
+@media (min-width: 768px) {
+  .bob-container {
+    width: 750px;
+  }
+  .bob-3item{
+    width: 33.33333333%;
+  }
+  .bob-4item{
+    width:25%;
+  }
+}
+@media (min-width: 992px) {
+  .bob-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .bob-container {
+    width: 1170px;
+  }
+}
 
 
 
