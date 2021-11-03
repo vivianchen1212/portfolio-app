@@ -134,7 +134,9 @@ p {
    
 }
  
-
+div center{
+  
+}
 
 
 div img.center {
@@ -201,13 +203,15 @@ canvas {
 }
 
 .videobox iframe {
-  //  position: absolute;
+   position: relative;
     top: 0;
     left: 0;
-    width: 80%;
+ //   width: 80%;
  //   height: 80%;
   margin-left: auto;
   margin-right: auto;
+  width:1060px;
+  height:800px;
     
 }
 
