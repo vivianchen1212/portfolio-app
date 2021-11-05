@@ -11,16 +11,17 @@ function setup() {
  let cnv =  createCanvas(600, 600);
   cnv.position(0,0,'relative');
   cnv.id('my');
+  cnv.elt.style.border = '5px solid red';
   angleMode(DEGREES);
   background('#D7C5C1');
 
   // Creating the save button for the file
   saveButton = createButton('save');
   saveButton.mousePressed(saveFile);
-  //saveButton.position(600,600,'relative');
-//  saveButton.style('width', '250px');
+ // saveButton.position(450,300);
+ // saveButton.style('width', '250px');
  
-  
+ 
     
 
   // Creating the clear screen button
