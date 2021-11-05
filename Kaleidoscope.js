@@ -18,16 +18,22 @@ function setup() {
   // Creating the save button for the file
   saveButton = createButton('save');
   saveButton.mousePressed(saveFile);
-  saveButton.position(220,-250,'relative');
- // saveButton.style('width', '250px');
- 
- 
-    
+
+  saveButton.style('margin-left', '25%');
+  saveButton.position('top', '25%', 'relative');
+  
+  
 
   // Creating the clear screen button
   clearButton = createButton('clear');
   clearButton.mousePressed(clearScreen);
-
+//clearButton.position(220,-250,'relative');
+ // clearButton.style('margin-left', '50%');
+ 
+  
+  
+  
+  
   // Creating the button for Full Screen
   fullscreenButton = createButton('Full Screen');
   fullscreenButton.mousePressed(screenFull);
