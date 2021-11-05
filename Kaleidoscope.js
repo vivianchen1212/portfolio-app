@@ -10,14 +10,14 @@ function setup() {
  // noCanvas()
  let cnv =  createCanvas(600, 600);
   cnv.position(0,0,'relative');
-  
+  cnv.id('my');
   angleMode(DEGREES);
   background('#D7C5C1');
 
   // Creating the save button for the file
   saveButton = createButton('save');
   saveButton.mousePressed(saveFile);
-  saveButton.position(0,0,'relative');
+  //saveButton.position(600,600,'relative');
 //  saveButton.style('width', '250px');
  
   
