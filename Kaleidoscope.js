@@ -2,12 +2,14 @@
 let symmetry = 6;
 
 let angle = 360 / symmetry;
-var saveButton, clearButton, mouseButton, keyboardButton;
+let saveButton, clearButton, mouseButton, keyboardButton;
 let slider;
+
 
 function setup() {
  // noCanvas()
-  createCanvas(600, 600);
+ let cnv =  createCanvas(600, 600);
+  cnv.position(0,0,'relative');
   
   angleMode(DEGREES);
   background('#D7C5C1');
@@ -15,13 +17,11 @@ function setup() {
   // Creating the save button for the file
   saveButton = createButton('save');
   saveButton.mousePressed(saveFile);
- // saveButton.position(60,80);
+  saveButton.position(0,0,'relative');
 //  saveButton.style('width', '250px');
-   saveButton.style('margin-left', 'auto');
-  saveButton.style('margin-right', 'auto');
+ 
   
-   
-   
+    
 
   // Creating the clear screen button
   clearButton = createButton('clear');
@@ -32,6 +32,7 @@ function setup() {
   fullscreenButton.mousePressed(screenFull);
   
   
+
   
 }
 
