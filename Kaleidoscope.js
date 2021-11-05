@@ -32,8 +32,7 @@ function setup() {
   fullscreenButton = createButton('Full Screen');
   fullscreenButton.mousePressed(screenFull);
   
-  brushSizeSlider = createButton('Brush Size Slider');
-  sizeSlider = createSlider(1, 32, 4, 0.1);
+
 
   
 }
