@@ -9,7 +9,6 @@ let b1 =[];
 function setup(){
 
   let cnv = createCanvas(400,400);
-
   for (let i =0; i < 20; i++){   
     let x = random(width);
     let y = random(height);
