@@ -22,6 +22,9 @@ function setup() {
   // Creating the button for Full Screen
   fullscreenButton = createButton('Full Screen');
   fullscreenButton.mousePressed(screenFull);
+  
+  
+  
 }
 
 // Save File Function
