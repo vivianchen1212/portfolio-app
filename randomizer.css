@@ -5,6 +5,8 @@ html, body {
 }
 
 
+
+/*1*/
 canvas {
   padding-top:50px;
   margin-left: auto;
@@ -12,6 +14,9 @@ canvas {
   display: block;
 }
 
+
+
+/*2*/
 .randomizerButton{
   background-color: #abd1c1;
   border: none;
@@ -21,15 +26,22 @@ canvas {
   padding: 10px;
 }
 
+
+/*3*/
 .center{
   margin-left: auto;
   margin-right: auto;
 }
 
+
+/*4*/
 .row {
   display: flex;
 }
 
+
+
+/*5*/
 .column {
   flex: 50%;
 }
