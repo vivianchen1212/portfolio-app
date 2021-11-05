@@ -2,7 +2,7 @@
 let symmetry = 6;
 
 let angle = 360 / symmetry;
-let saveButton, clearButton, mouseButton, keyboardButton;
+var saveButton, clearButton, mouseButton, keyboardButton;
 let slider;
 
 function setup() {
@@ -15,7 +15,13 @@ function setup() {
   // Creating the save button for the file
   saveButton = createButton('save');
   saveButton.mousePressed(saveFile);
-  //saveButton.position(0,0);
+ // saveButton.position(60,80);
+//  saveButton.style('width', '250px');
+   saveButton.style('margin-left', 'auto');
+  saveButton.style('margin-right', 'auto');
+  
+   
+   
 
   // Creating the clear screen button
   clearButton = createButton('clear');
