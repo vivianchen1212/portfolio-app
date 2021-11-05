@@ -50,7 +50,6 @@ for (let i = 0; i < 5; i++) {
 }
 }
 
-nameInputs.style('margin',auto);
 
 
 function draw() {
