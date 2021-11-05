@@ -8,13 +8,14 @@ let slider;
 function setup() {
  // noCanvas()
   createCanvas(600, 600);
+  
   angleMode(DEGREES);
   background('#D7C5C1');
 
   // Creating the save button for the file
   saveButton = createButton('save');
   saveButton.mousePressed(saveFile);
-  saveButton.position(0,0);
+  //saveButton.position(0,0);
 
   // Creating the clear screen button
   clearButton = createButton('clear');
@@ -66,6 +67,17 @@ function draw() {
       }
     }
   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
   
   
