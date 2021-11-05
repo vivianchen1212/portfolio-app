@@ -11,7 +11,7 @@ function setup() {
  let cnv =  createCanvas(600, 600);
   cnv.position(0,0,'relative');
   cnv.id('my');
-  cnv.elt.style.border = '5px solid red';
+  cnv.class('p5Canvas');
   angleMode(DEGREES);
   background('#D7C5C1');
 
@@ -32,7 +32,8 @@ function setup() {
   fullscreenButton = createButton('Full Screen');
   fullscreenButton.mousePressed(screenFull);
   
-  
+  brushSizeSlider = createButton('Brush Size Slider');
+  sizeSlider = createSlider(1, 32, 4, 0.1);
 
   
 }
