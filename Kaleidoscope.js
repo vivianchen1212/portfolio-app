@@ -18,7 +18,7 @@ function setup() {
   // Creating the save button for the file
   saveButton = createButton('save');
   saveButton.mousePressed(saveFile);
- // saveButton.position(450,300);
+  saveButton.position(220,-250,'relative');
  // saveButton.style('width', '250px');
  
  
